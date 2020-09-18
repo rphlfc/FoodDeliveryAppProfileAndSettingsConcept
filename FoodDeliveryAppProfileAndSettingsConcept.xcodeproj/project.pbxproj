@@ -13,6 +13,10 @@
 		64665AD52512D15E00655D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64665AD42512D15E00655D25 /* Assets.xcassets */; };
 		64665AD82512D15E00655D25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64665AD72512D15E00655D25 /* Preview Assets.xcassets */; };
 		64665ADB2512D15E00655D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64665AD92512D15E00655D25 /* LaunchScreen.storyboard */; };
+		64C49D8825142D3800600B80 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C49D8725142D3800600B80 /* CustomNavigationView.swift */; };
+		64C49D8C25142D6100600B80 /* FloatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C49D8B25142D6100600B80 /* FloatingView.swift */; };
+		64C49D8F2514335000600B80 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C49D8E2514335000600B80 /* CustomTextField.swift */; };
+		64C49D93251436A600600B80 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64C49D92251436A600600B80 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		64665AD72512D15E00655D25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64665ADA2512D15E00655D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64665ADC2512D15E00655D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C49D8725142D3800600B80 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		64C49D8B25142D6100600B80 /* FloatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FloatingView.swift; path = FoodDeliveryAppProfileAndSettingsConcept/FloatingView.swift; sourceTree = SOURCE_ROOT; };
+		64C49D8E2514335000600B80 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		64C49D92251436A600600B80 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		64665AC22512D15C00655D25 = {
 			isa = PBXGroup;
 			children = (
+				64C49D92251436A600600B80 /* README.md */,
 				64665ACD2512D15C00655D25 /* FoodDeliveryAppProfileAndSettingsConcept */,
 				64665ACC2512D15C00655D25 /* Products */,
 			);
@@ -56,6 +65,7 @@
 		64665ACD2512D15C00655D25 /* FoodDeliveryAppProfileAndSettingsConcept */ = {
 			isa = PBXGroup;
 			children = (
+				64C49D8625142D2700600B80 /* Views */,
 				64665ACE2512D15C00655D25 /* AppDelegate.swift */,
 				64665AD02512D15C00655D25 /* SceneDelegate.swift */,
 				64665AD22512D15C00655D25 /* ContentView.swift */,
@@ -73,6 +83,16 @@
 				64665AD72512D15E00655D25 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64C49D8625142D2700600B80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64C49D8E2514335000600B80 /* CustomTextField.swift */,
+				64C49D8B25142D6100600B80 /* FloatingView.swift */,
+				64C49D8725142D3800600B80 /* CustomNavigationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +154,7 @@
 			files = (
 				64665ADB2512D15E00655D25 /* LaunchScreen.storyboard in Resources */,
 				64665AD82512D15E00655D25 /* Preview Assets.xcassets in Resources */,
+				64C49D93251436A600600B80 /* README.md in Resources */,
 				64665AD52512D15E00655D25 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +168,10 @@
 			files = (
 				64665ACF2512D15C00655D25 /* AppDelegate.swift in Sources */,
 				64665AD12512D15C00655D25 /* SceneDelegate.swift in Sources */,
+				64C49D8F2514335000600B80 /* CustomTextField.swift in Sources */,
 				64665AD32512D15C00655D25 /* ContentView.swift in Sources */,
+				64C49D8825142D3800600B80 /* CustomNavigationView.swift in Sources */,
+				64C49D8C25142D6100600B80 /* FloatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +314,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FoodDeliveryAppProfileAndSettingsConcept/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FoodDeliveryAppProfileAndSettingsConcept/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +335,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FoodDeliveryAppProfileAndSettingsConcept/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FoodDeliveryAppProfileAndSettingsConcept/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
